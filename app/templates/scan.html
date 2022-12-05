@@ -5,8 +5,9 @@
   <body>
     <h1>Scan QR Code</h1>
     <form method="POST">
-      <input type="file" accept="image/*" capture="environment" id="qr-code">
+      <input type="file" accept="image/*" capture="environment" id="qr-code" onchange="scanQRCode()">
       <button type="submit">Scan QR Code</button>
     </form>
   </body>
 </html>
+
